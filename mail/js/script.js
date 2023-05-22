@@ -8,17 +8,17 @@ let mail_utente = prompt("Inserire l'indirizzo e-mail")
 let flag = false;
 
 //ciclo for
-for (let i=0; i<mail.length; i++){
+for(let i=0; i<mail.length; i++){
     if(mail[i].toLowerCase() === mail_utente.toLowerCase())
     flag = true;
 }
 
 //mail trovata
 if(flag === true){
-    alert("Mail trovata")
+    alert("Mail trovata");
 }
 
 //mail non trovata
 else{
-    alert("Mail non trovata")
+    alert("Mail non trovata");
 }
