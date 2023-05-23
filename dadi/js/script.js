@@ -9,15 +9,15 @@ let computer = Math.floor(Math.random() * 6 + 1);
 
 //sconfitta
 if(computer > utente){
-    alert(`${utente} ${computer} Hai perso`);
+    alert(`UTENTE: ${utente} COMPUTER: ${computer} /Hai perso`);
 }
 
 //pareggio
 else if(computer === utente){
-    alert(`${utente} ${computer} Pareggio`);
+    alert(`UTENTE: ${utente} COMPUTER: ${computer} /Pareggio`);
 }
 
 //vittoria
 else{
-    alert(`${utente} ${computer} Hai vinto`);
+    alert(`UTENTE: ${utente} COMPUTER: ${computer} /Hai vinto`);
 }
